@@ -287,6 +287,10 @@
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    
+     <!-- Control whether Night display is available. This should only be enabled on devices
+         with HWC 2.0 or higher. -->
+    <bool name="config_nightDisplayAvailable">true</bool>
 
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
