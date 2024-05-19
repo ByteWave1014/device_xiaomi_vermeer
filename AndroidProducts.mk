@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_vermeer.mk
-
-COMMON_LUNCH_CHOICES := \
-     aosp_vermeer-user \
-     aosp_vermeer-userdebug \
-     aosp_vermeer-eng
