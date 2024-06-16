@@ -2490,7 +2490,7 @@ system_ext/app/DeviceStatisticsService/DeviceStatisticsService.apk|40708708e9d5d
 system_ext/app/DynamicDDSService/DynamicDDSService.apk|d39955e6c5ee89f908331c0f4bd7d9ce5b4f14eb
 system_ext/app/ImsDataChannelService/ImsDataChannelService.apk|ea2fca653d21223d09dda49dec6c6f961d286859
 system_ext/app/ImsRcsService/ImsRcsService.apk|57e4275cf15544a350617605d4a556534ada041c
-system_ext/app/QtiTelephony/QtiTelephony.apk|87bf34412816c4e1c4a56b050b1e304f98fef19d
+system_ext/app/QtiTelephony/QtiTelephony.apk
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|6649715fb5d956ca7e92a747dc6e73a24f3c025e
 system_ext/app/SimContact/SimContact.apk|1659eac01cb5580da9207c27f52403f9d51a30c0
 system_ext/app/uceShimService/uceShimService.apk|38ea630d6d94ba85de4218854d12c68957c8c422
@@ -2784,7 +2784,7 @@ system_ext/lib64/vendor.qti.latency@2.3.so|2197d5cb642de8f0c2503787a92f20856e119
 system_ext/lib64/vendor.qti.latencyaidlservice-V1-ndk.so|8d4367c2e6ab36c275c09f522dbd86a99e3a21e4
 system_ext/lib64/vendor.qti.mstatservice@1.0.so|563e00dd5b8c45d63d6a3b304a1411a357822261
 system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|ebf1f753ed24f8b6ba87c5f27c628889c38d0a85
-system_ext/priv-app/ims/ims.apk|eb896ad88f5c4d7ae26f6474e7fe4ccff8cc1efd
+system_ext/priv-app/ims/ims.apk
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|0683bd5ee5b9d34da4a55fefa515d676c7f8f9a4
 system/framework/tcmclient.jar|4e1dfaa243c67fec31b5a44086c9c417892761ae
 system/framework/vendor.qti.hardware.data.connectionaidl-V1-java.jar|3de6b7c917a2765185ba5d79acf8e02891e1a994
