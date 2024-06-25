@@ -232,6 +232,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     libdrm.vendor
 
+# EPPE
+TARGET_DISABLE_EPPE := true
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
