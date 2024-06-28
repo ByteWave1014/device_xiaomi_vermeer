@@ -500,6 +500,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.class_main.sh \
+    init.kernel.post_boot-kalama.sh \
     init.qcom.early_boot.sh \
     init.qcom.rc \
     init.recovery.qcom.rc \
