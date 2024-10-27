@@ -309,28 +309,6 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     IPACM_Filter_cfg.xml
 
-# Init
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    init.class_main.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.rc \
-    init.recovery.qcom.rc \
-    init.qcom.sh \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh \
-    init.recovery.usb.rc \
-    init.target.rc \
-    init.mi_device.rc \
-    init.mi_perf.rc \
-    init.mi_service.rc \
-    init.mi_udfps.rc \
-    ueventd.odm.rc \
-    ueventd.qcom.rc
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
-
 # Kernel
 include $(LOCAL_PATH)/kernel/kernel-platform.mk
 
@@ -517,6 +495,27 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
+
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.class_main.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.rc \
+    init.recovery.qcom.rc \
+    init.qcom.sh \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh \
+    init.recovery.usb.rc \
+    init.target.rc \
+    init.mi_perf.rc \
+    init.mi_service.rc \
+    init.udfps.vermeer.rc \
+    ueventd.odm.rc \
+    ueventd.qcom.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
 # Sensors
 PRODUCT_PACKAGES += \
