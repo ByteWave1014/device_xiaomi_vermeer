@@ -334,9 +334,6 @@ PRODUCT_COPY_FILES += \
 # Kernel
 include $(LOCAL_PATH)/kernel/kernel-platform.mk
 
-# Kernel Binary
-KERNEL_PREBUILT_DIR := device/xiaomi/vermeer-kernel
-
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor \

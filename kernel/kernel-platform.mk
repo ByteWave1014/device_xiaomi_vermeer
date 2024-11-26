@@ -4,11 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_USES_KERNEL_PLATFORM := true
+TARGET_USES_KERNEL_PLATFORM ?= true
+KERNEL_PREBUILT_DIR := device/xiaomi/vermeer-kernel
 
 KERNEL_PRODUCT_DIR := kernel_obj
 KERNEL_MODULES_INSTALL := dlkm
-KERNEL_MODULES_OUT := $(OUT_DIR)/target/product/$(PRODUCT_DEVICE)/$(KERNEL_MODULES_INSTALL)/lib/modules
+KERNEL_MODULES_OUT ?= $(OUT_DIR)/target/product/$(PRODUCT_DEVICE)/$(KERNEL_MODULES_INSTALL)/lib/modules
 
 ifeq ($(TARGET_USES_KERNEL_PLATFORM),true)
 
