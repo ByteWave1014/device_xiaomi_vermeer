@@ -13,6 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/vermeer/vermeer-vendor.mk)
 
+# Get non-open-source specific aspects common
+$(call inherit-product, vendor/xiaomi/sm8550-common/sm8550-common-vendor.mk)
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
