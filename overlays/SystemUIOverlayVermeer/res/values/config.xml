@@ -30,6 +30,9 @@
     <dimen name="status_bar_icons_padding_start">0dp</dimen>
     <dimen name="status_bar_icons_padding_end">0dp</dimen>
 
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">120</integer>
+
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">10dp</dimen>
 
