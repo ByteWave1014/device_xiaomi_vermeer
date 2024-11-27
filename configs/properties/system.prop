@@ -6,6 +6,11 @@ ro.media.recorder-max-base-layer-fps=60
 # NFC
 ro.nfc.port=I2C
 
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 

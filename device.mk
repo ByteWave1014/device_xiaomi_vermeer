@@ -410,9 +410,16 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayVermeer \
     DeviceAsWebcamResVermeer \
     FrameworkResOverlayVermeer \
+    SecureElementOverlayVermeer \
     SystemUIOverlayVermeer \
     SettingsOverlayVermeer \
-    TelephonyOverlayVermeer
+    SettingsProviderOverlayVermeerPOCO \
+    SettingsProviderOverlayVermeerRedmi \
+    TelephonyOverlayVermeer \
+    NfcOverlayVermeer \
+    WifiOverlayVermeer \
+    WifiOverlayVermeerPOCO \
+    WifiOverlayVermeerRedmi 
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
