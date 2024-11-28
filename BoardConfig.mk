@@ -125,6 +125,8 @@ BOARD_KERNEL_CMDLINE := \
     rcutree.enable_rcu_lazy=1 \
     mtdoops.fingerprint=$(LINEAGE_VERSION)
 
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
+
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image
