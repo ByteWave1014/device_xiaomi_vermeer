@@ -15,6 +15,10 @@ echo "Cloning Hardware related stuff..."
 rm -rf hardware/xiaomi
 git clone --depth=1 https://github.com/Lunark-Projects/hardware_xiaomi.git hardware/xiaomi 
 
+echo "Cloning Firmware..."
+# Firmware
+git clone --depth=1 https://github.com/ByteWave1014/vendor_xiaomi_vermeer-firmware.git vendor/xiaomi/vermeer-firmware
+
 echo "Cloning Sepolicy..."
 # Sepolicy 
 rm -rf device/xiaomi/sepolicy
